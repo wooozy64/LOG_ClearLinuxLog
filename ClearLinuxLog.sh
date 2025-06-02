@@ -17,14 +17,12 @@ echo > /var/log/secure
 
 # 清理journalctl日志
 rm -rf /var/log/journal/*
-
 #journalctl --vacuum-time=2weeks
 
-
 # 清空history记录
-history -cw
-history -c && history -w
-#echo > ~/.bash_history
+#history -cw
+#history -c && history -w
+echo > ~/.bash_history
 #unset HISTFILE
 #export HISTFILE=/dev/null
-echo 'hhhhhh'
+echo 'clear done.'
