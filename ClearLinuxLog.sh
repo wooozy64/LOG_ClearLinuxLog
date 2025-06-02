@@ -27,3 +27,4 @@ history -cw
 #echo > ~/.bash_history
 #unset HISTFILE
 #export HISTFILE=/dev/null
+echo 'hhhhhh'
