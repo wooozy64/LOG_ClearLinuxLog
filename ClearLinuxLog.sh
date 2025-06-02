@@ -23,7 +23,7 @@ rm -rf /var/log/journal/*
 
 # 清空history记录
 history -cw
-#history -c && history -w
+history -c && history -w
 #echo > ~/.bash_history
 #unset HISTFILE
 #export HISTFILE=/dev/null
