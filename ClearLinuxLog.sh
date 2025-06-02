@@ -18,7 +18,7 @@ echo > /var/log/secure
 # 清理journalctl日志
 rm -rf /var/log/journal/*
 
-journalctl --vacuum-time=2weeks
+#journalctl --vacuum-time=2weeks
 
 
 # 清空history记录
